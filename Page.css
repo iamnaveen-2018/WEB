@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+}
+
+.container
+{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    color: limegreen;
+    font-size: larger;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.head{
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: limegreen;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    color: limegreen;
+    border:2px solid black;
+    background-color: black;
+    display: grid;
+    grid-template-rows:auto auto;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:200px;
+}
+input:hover{
+    border-color: limegreen;
+}
